@@ -1,0 +1,14 @@
+/.idea
+/logs
+/__data
+
+*.cache
+*.log
+*.backup
+*.orig
+
+.env
+
+/nginx/ssl/*.crt
+/nginx/ssl/*.key
+/nginx/ssl/*.csr
