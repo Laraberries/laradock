@@ -378,7 +378,7 @@ services:
 
     ### Docker-in-Docker ################################################
     docker-in-docker:
-        image: docker:19.03-dind
+        image: docker:stable
         environment:
             DOCKER_TLS_SAN: DNS:docker-in-docker
         privileged: true
